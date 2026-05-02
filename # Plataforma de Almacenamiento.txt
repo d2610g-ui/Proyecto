@@ -1,0 +1,77 @@
+# Plataforma de Almacenamiento de Proyectos
+
+##  Descripcion
+La **Plataforma de Almacenamiento de Proyectos** es una pagina web diseñada para permitir a los usuarios guardar, organizar y editar sus trabajos de manera eficiente. Esta orientada a estudiantes, profesores y trabajadores que necesitan gestionar sus archivos en un solo lugar.
+
+
+
+##  Problema
+Actualmente, muchas personas no cuentan con una herramienta centralizada para almacenar sus proyectos, lo que genera desorden, perdida de informacion y dificultad para acceder a sus archivos.
+
+
+
+##  Solucion
+Esta plataforma permite:
+- Guardar archivos y proyectos
+- Editar contenido facilmente
+- Organizar informacion de manera estructurada
+- Acceder a los trabajos en cualquier momento
+
+
+##  Tecnologias utilizadas
+- **HTML5**:  Estructura del sitio web  
+- **CSS3**:  Diseño y estilos (Flexbox)  
+- **JavaScript (ES6+)** : Funcionalidad e interactividad  
+
+
+
+##  Estructura del proyecto
+
+```
+Proyecto/
+│
+├── Archivos/
+│
+├── Codigos/
+│   ├── index.html
+│   ├── script.js
+│   └── styles.css
+│
+├── Evidencias/
+│   └── Fotos/
+│
+└── Plataforma-de-Almacenamiento/
+```
+
+##  Funcionalidades principales
+- Registro e inicio de sesion de usuarios  
+- Subida de archivos e imagenes  
+- Edicion de trabajos guardados  
+- Organizacion de contenido  
+- Administracion de proyectos  
+
+
+
+## Como usar
+1. Abrir la pagina web  
+2. Registrarse o iniciar sesion  
+3. Subir archivos o proyectos  
+4. Editar o administrar el contenido  
+
+
+## Caracteristicas
+Interfaz sencilla y facil de usar  
+Organizacion clara de archivos  
+Acceso rapido a la informacion  
+Diseño responsivo  
+
+
+##  Mejoras futuras
+- Implementar base de datos  
+- Añadir sistema de seguridad avanzado  
+- Permitir compartir proyectos  
+- Mejorar el diseño visual  
+
+
+##  Autor
+**Daniel Gil**

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Proyectos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>📦 Gestor de Proyectos</h1>
+    <p>Organiza y gestiona tus trabajos fácilmente</p>
+</header>
+
+<main>
+
+    <div class="card login" id="login">
+        <h2>Iniciar Sesión</h2>
+        <input type="text" id="usuario" placeholder="Usuario">
+        <input type="password" id="password" placeholder="Contraseña">
+        <button onclick="login()">Ingresar</button>
+    </div>
+
+    <div class="card panel hidden" id="panel">
+        <div class="panel-header">
+            <h2>Mis Proyectos</h2>
+            <button class="logout" onclick="logout()">Salir</button>
+        </div>
+
+        <div class="add">
+            <input type="text" id="nuevoProyecto" placeholder="Nuevo proyecto">
+            <button onclick="agregarProyecto()">Agregar</button>
+        </div>
+
+        <ul id="lista"></ul>
+    </div>
+
+</main>
+
+<footer>
+    <p>© 2026 - Daniel Gil</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
